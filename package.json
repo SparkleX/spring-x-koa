@@ -1,0 +1,26 @@
+{
+  "name": "spring-x-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-mount": "^4.0.0",
+    "@types/koa-static": "^4.0.1",
+    "koa-logger": "^3.2.1",
+    "koa-mount": "^4.0.0",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@types/koa-route": "^3.2.4",
+    "koa": "^2.11.0",
+    "koa-route": "^3.2.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0"
+  }
+}
